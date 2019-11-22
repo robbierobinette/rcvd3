@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sbt: com.github.fdietze:scala-js-d3v4_sjs1.0.0-M7_2.12:master-SNAPSHOT:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/local/com.github.fdietze/scala-js-d3v4_sjs1.0.0-M7_2.12/master-SNAPSHOT/jars/scala-js-d3v4_sjs1.0.0-M7_2.12.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/local/com.github.fdietze/scala-js-d3v4_sjs1.0.0-M7_2.12/master-SNAPSHOT/docs/scala-js-d3v4_sjs1.0.0-M7_2.12-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/local/com.github.fdietze/scala-js-d3v4_sjs1.0.0-M7_2.12/master-SNAPSHOT/srcs/scala-js-d3v4_sjs1.0.0-M7_2.12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
