@@ -79,13 +79,11 @@ case class RCVElectionDisplay(electionDef: ElectionDefinition) {
   private val simulation = createVoters(electionDef)
 
   def createVoters(electionDef: ElectionDefinition): Simulation[VoterBubble] = {
-
     val simulation = d3.forceSimulation(voters.toJSArray)
-      .force("x", d3.forceX().x((b: VoterBubble) => 400.0).strength(.05))
+      .force("x", d3.forceX().x((b: VoterBubble) => 400.0).strength(.15))
       .force("collision", d3.forceCollide().radius((b: VoterBubble) => b.radius))
       .on("tick", ticked _)
     simulation
-
   }
 
   def ticked(sim: Simulation[VoterBubble]): Unit = {
